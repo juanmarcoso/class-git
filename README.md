@@ -177,7 +177,8 @@ git commit #Sin agregar -m veremos que pasa
 #Agregar mensaje y salir con
 Esc #Presionamos Escape 
 :wq! + enter #Y ya salimos si estamos en git bash con window
-Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales
+#***Con Linux***
+Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales en Ubuntu no.
 #Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
 ctrl + s
 git add .
