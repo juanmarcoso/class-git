@@ -182,10 +182,9 @@ Esc #Presionamos Escape
 Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales en Ubuntu no.
 
 #Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
-ctrl + s
-git add .
-git commit
-#Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
+ctrl + s # Guardamos las modificaciones
+git add . # Agregamos todos los archivos
+git commit #Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
 Esc + i #Para comenzar a escribir mensaje del commit, no suele ser necesario
 ctrl + x #Para salir en linux
 s + enter #Para decir si al cambio y aceptar el nombre, ósea no cambiamos el nombre, la (s) es de si y la (y) es de yes, no olvidar enter en linux
