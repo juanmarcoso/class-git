@@ -1,3 +1,5 @@
 Bienvenido! Mi nombre es Juan Marcos
 
 estoy estudiando programación en la UTN
+
+Lo que estudio es Tecnicatura en programacion
