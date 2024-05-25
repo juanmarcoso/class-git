@@ -35,6 +35,8 @@ mkdir Python
 mkdir Java
 mkdir JavaScript
 ```
-***Revisar y ejecutar cada comando, hacerlo como practica***
 
-Profesor Ariel Betancud
+> ***Importante!***
+> ***Revisar y ejecutar cada comando, hacerlo como practica***
+
+<sub>Profesor Ariel Betancud</sub>
