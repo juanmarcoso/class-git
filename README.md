@@ -313,7 +313,7 @@ cd ..
 # CLASE 6 MIÉRCOLES 15 DE MAYO DEL 2024
 
 > **Git reset vs. Git rm parte 7**
-
+>
 > Los comandos **git reset** y **git rm** tienen utilidades muy diferentes, pero pueden confundirse fácilmente.
 
 ## GIT RESET
@@ -335,9 +335,9 @@ Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hace
 mkdir git_reset_test #Vamos a hacer pruebas, es por esto que creamos una carpeta nueva
 cd git_reset_test #Entramos en la carpeta
 git init #Inicializamos el repositorio
-touch reset_file.txt
-git add reset_file.txt
-git commit -m"Iniciando el primer commit"
+touch reset_file.txt #Creamos un archivo para estudiar esto
+git add reset_file.txt #Lo agregamos 
+git commit -m"Iniciando el primer commit" #Hacemos nuestro primer commit sobre el nuevo repositorio
 ```
 
 **_¿Cómo funciona Git Reset en tu flujo de trabajo?_**
@@ -354,9 +354,11 @@ git reset --hard # Deshace todo, absolutamente todo. Toda la información de los
 git reset --mixed # Borra todo, exactamente todo. Toda la información de los commits y del área de staging se elimina del historial. 
 
 git reset HEAD # El comando git reset saca archivos del área de staging sin borrarlos ni realizar otras acciones. Esto impide que los últimos cambios en estos archivos se envíen al último commit. Podemos incluirlos de nuevo en staging con git add si cambiamos de opinión. Ten en cuenta que, si deshaces commits en un repositorio compartido en GitHub, estarás cambiando su historia y esto puede causar problemas de sincronización con otros colaboradores.
+```
 
-¿Qué es git reset HEAD? 
+**¿Qué es git reset HEAD?**
 
+```sh
 git reset HEAD es un comando que te permite revertir los cambios que ya habías preparado para subir, y moverlos de vuelta a tu proyecto. Con este comando puedes cancelar los cambios que ya habías agregado, para que puedas revisarlos, modificarlos o deshacerlos antes de confirmarlos con un commit.
 
 git rm Por otro lado, es un comando que nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Para recuperar el archivo eliminado, necesitamos retroceder en la historia del proyecto, recuperar el último commit y obtener la última confirmación antes de la eliminación del archivo.
@@ -394,3 +396,4 @@ Crear cambios en el archivo creado, donde vamos a hacer varios commits, para ir 
 <sub>***La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.***</sub>
 
 >***Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor: Dante Nicolás Martinez***.
+
