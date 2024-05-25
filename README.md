@@ -264,19 +264,18 @@ git commit -m "Agregamos datos de estudios en historia.txt"
 git config --list #Veremos la configuración que ya hemos hecho con en nombre y email
 git reset hash-nombre-commit --hard #Es el duro, todo vuelve a su estado anterior, es el más usado, desaparece todo
 git reset hash-nombre-commit --soft #Este es el suave, lo que tengamos en staging segirá allí
-crear un archivo #portafolio.html introducir el código y
-touch portafolio.html
+
+touch portafolio.html #crear un archivo #portafolio.html introducir el código y
 html : 5 #Con esto se carga el código básico de html y modificamos
 ctrl + s #Guardamos
-Clic derecho en VSC Open with Live Server para ver en el navegador
+# Clic derecho en VSC Open with Live Server para ver en el navegador
 git status
 ls
 ls -al
 git add .
 git status
 git commit -m "Agregamos el html para nuestro portafolio"
-creamos CSS #Este es un archivo de estilos, para esto creamos una nueva carpeta llamada css
-mkdir css
+mkdir css # creamos CSS #Este es un archivo de estilos, para esto creamos una nueva carpeta llamada css
 ls
 cd css
 touch style.css #creamos un archivo dentro: estilos.css le cargamos el código.
